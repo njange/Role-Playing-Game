@@ -30,7 +30,7 @@ function goStore() {
     button2.onclick = buyWeapon;
     button3.onclick = goTown;
 }
-  }
+
 
   function goCave() {
     console.log("Going to cave.");

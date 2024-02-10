@@ -144,5 +144,6 @@ function buyWeapon() {
   }
   
   function fightBeast(){
-  
+    fighting = 1;
+  goFight();
   }

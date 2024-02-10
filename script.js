@@ -90,6 +90,7 @@ function fightDragon() {
   }
   
 function buyWeapon() {
+  if (currentWeapon < 3) {
   if (gold >= 30) {
     gold -= 30;
     currentWeapon++;
@@ -101,7 +102,7 @@ function buyWeapon() {
   } else {
     text.innerText = "You do not have enough gold to buy a weapon.";
   }
-
+  }
   }
 
   function fightSlime(){

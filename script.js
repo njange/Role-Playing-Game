@@ -93,6 +93,7 @@ function goCave() {
 }
 
 
+
  function buyHealth() {
   if (gold >= 10) {
     gold -= 10;
@@ -143,4 +144,9 @@ function buyWeapon() {
   function fightBeast(){
     fighting = 1;
   goFight();
+  }
+
+  function fightDragon() {
+    fighting = 2;
+    goFighting();
   }
